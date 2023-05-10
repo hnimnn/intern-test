@@ -1,0 +1,44 @@
+.footer{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-top: 1px solid #DEDEDE;
+    padding: 30px 129px 30px 
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #3E3E3E;
+
+}
+
+@media (max-width: 1113px) {
+ 
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .footer{
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        border-top: 1px solid #DEDEDE;
+        padding: 10px 50px 10px 
+    }
+    .text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #3E3E3E;
+    
+    }
+    
+}

@@ -1,0 +1,47 @@
+.menu-bar {
+    background-color: #191718;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  
+  .option {
+    cursor: pointer;
+    color: #AAAAAA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 14px 14px 10px;
+    border-bottom: 1px solid #5C5C5C;
+  }
+  .option:hover{
+    background: #5C5C5C;
+    color: white
+  }
+  .option.active{
+    background: #5C5C5C;
+    color: white
+  }
+/* Tablet */
+@media (max-width: 1113px) {
+ 
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .menu-bar {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #191718;
+    padding: 0px;
+    height: 40px;
+    position: unset;
+    left: auto;
+    top: auto;
+  }
+}
